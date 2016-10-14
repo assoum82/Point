@@ -1,2 +1,2 @@
 # Point
-affichage de 3 point 
+affichage de 3 points
