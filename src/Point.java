@@ -34,10 +34,10 @@ public class Point {
     public int getOrdonnee() {
         return ordonnee;
     }
-
-    //calcule de limage
-    public int symetrie() {
-        return -this.abscisse;
+/* Created by Asmaa Bengueddach */
+    //calcule de limage justement c'est la création d'un nouveau point 
+    public Point symetrie() {
+        return new (-this.abscisse,ordonnee);
     }
 
     //affichage du point (x,y)
